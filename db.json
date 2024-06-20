@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Kashi",
+      "depatment": "Tech",
+      "domainId": 1
+    },
+    {
+      "id": "2",
+      "name": "Aqsa",
+      "depatment": "Tech",
+      "domainId": 3
+    },
+    {
+      "domain": 1,
+      "name": "Richa",
+      "id": "3"
+    }
+  ],
+  "domain": [
+    {
+      "id": "1",
+      "name": "Testing"
+    },
+    {
+      "id": "2",
+      "name": "developer"
+    },
+    {
+      "id": "3",
+      "name": "operations"
+    }
+  ]
+}
