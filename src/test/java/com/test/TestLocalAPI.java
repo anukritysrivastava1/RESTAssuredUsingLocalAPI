@@ -12,7 +12,7 @@ import io.restassured.http.ContentType;
 
 public class TestLocalAPI {
 	
-//	@Test
+	@Test
 	public void get() {
 		
 		baseURI = "http://localhost:3000";
@@ -22,7 +22,7 @@ public class TestLocalAPI {
 	}
 	
 	
-//	@Test
+	@Test
 	public void post() {
 		
 		
@@ -38,7 +38,7 @@ public class TestLocalAPI {
 		given().contentType(ContentType.JSON).accept(ContentType.JSON).body(req.toJSONString()).when().post("/users").then().statusCode(201);
 	}
 	
-//	@Test
+	@Test
 	public void put() {
 		
 		
@@ -61,7 +61,7 @@ public class TestLocalAPI {
 		.statusCode(200);
 	}
 	
-//	@Test
+	@Test
 	public void patch() {
 		
 		JSONObject req = new JSONObject();
